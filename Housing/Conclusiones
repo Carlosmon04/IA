@@ -1,0 +1,19 @@
+Dentro de mis conclusiones, es de decir que los resultados con o sin edades son bien similares.
+
+Sin Edades, una persona de 1.70 en promedio me dira que pesa de 67 a 68 kg,
+esto se debe a que la mitad tienen pesos similares al igual que las estaturas.
+Si fueran pesos y estaturas muy descontinuas como 1.60 a 1.80 1.54, creo que le seria mas dificl
+al modelo analizar esta informacion, pero considero que con los datos que le di a analizar
+trabaja bien
+
+Con Edades trabaja muy similar con los aciertos, la mayoria andan alrededor de
+los 30 años (Ruta 3 como dice mi Papa), y con el porcentaje de error dentro de las compilaciones
+he logrado tener un de 2 de error con los datos 1.72 y 20 años,
+pero en su mayoria andan por 5 y 6, he tenido menos error teniendo las edades, pero no se
+si sera factor de suerte, porque es promedio el mse1 es mas grande que el mse
+creo que es por las diferencias de edades que van de 16,27,35,49, es mas amplio
+
+Para terminar, considero que con la informacion brindada trabaja
+considerablemente bien, la informacion es muy importante para que trabaje
+tiene mas exactitud sin contar la edad, pero aveces suele atinarle con mas precision
+con la edad pero 1 de 10 compilaciones.
