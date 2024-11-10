@@ -1,0 +1,24 @@
+1) Utilizaria el Modelo de DecisionTreeClassifier
+
+2)Ya que debemos categorizar si el dispositivo se puede arreglar o debe comprar otro,
+ seria puede repararse? si o no, se podria usar tambien, LogisticRegression
+ pero el del Arbol analiza de mucho mejor manera la cantidad de datos, (se podria decir que es
+ mas preciso,por experiencia hecha en diferentes analisis de datos), conclusion, estamos buscando
+ clasificar la informacion en que si se puede reparar o NO,fuera diferente si dijeramos,
+ cual es la probabilidad que se pueda reparar?, Nosotros Queremos saber el Si o NO
+
+ 3)Pienso que en la programacion regular, se utiliza bastante la logica para hacer nuestros
+ bloques de codigo, aveces yo tardo mas pensando en como solucionar el problema en codigo
+ que escribiendo codigo, mientras que con este tipo de proyectos, analizamos bastante la Data,
+ o la informacion que nos estan brindando, por ejemplo, en el primer ejercicio, me tarde mas
+ pensando como podia modificar o clasificar los datos, que escribiendo dichos cambios.
+ Aqui buscamos patrones con los datos para realizar predicciones.
+ Y con los otros proyectos en mi caso ha sido implementar Funcionalidades a un sistemas.
+
+ 4)Considero que no llegan al 100% ya que el modelo busca patrones de comportamiento,
+ para poder analizar los datos brindados, y segun con la informacion dada, poder dar su prediccion,
+ Una base de datos sin importar su tamaño, si o si va tener alguna inconsistencia, los valores no son
+ perfectos, aveces son redondeados, y asi mismo con esos datos no perfectos, el modelo trata
+ de acercarse a estas caracteristicas, y son cosas que ni una persona puede asertar al
+ 100%, por la complejidad de las cosas y nada es exacto, nuevamente, busca patrones de c
+ comportamiento para aproximarse a una respuesta

@@ -1,0 +1,19 @@
+Ejercicio 1, hice la relaciones de cuartos totales que tiene una casa en promedio
+es decir total_rooms/total_bedrooms, que esto me indica cuantos lugares o cuartos
+hay en la casa, es decir, puede haber un cuarto o lugar para tener 2 salas por ejemplos
+la casa tiene muchos lugares, si el promedio de este Total-Rooms, es grande, por ende la casa
+debe ser grande, porque tiene mucho espacio y por lo tanto su valor aumenta o disminuye segun la cantidas
+de Total_Rooms, quite Bedrooms y rooms, para no tener mucha redundancia, ya que hay promedio de estos
+
+Limite las edades de las casas a 50, ya que Hay demasiadas casas con mas de 50 años
+y ese pico muy elevado, distorsiona un poco las predicciones, en realidad me afectaba como
+1% al score pero ya era algo, es como que una casa de 100 años valga cierta cantidad, solo por
+esa unica casa no me voy a guiar del precio
+
+El salto de verdad fue, en los valores de las casas, son demasiados datos, y es dificil de analizar
+con tantos datos, entonces, primero, limite el valor maximo de una casa a 500000, para tener un limite fijo
+porque si hubiese una casa de 500k y 1 , solo por esa unica no iba a preocuparme,
+entonces la mitad de 500k es 250k, y destine que las casas menores a 250k, son casas
+"Baratas" que destine como 0 y las de mas de 250k son las "Caras" = 1 y asi es mas facil para
+mi modelo, analizar los datos, haciendolo en categorias, ya que trabaja con los datos de manera
+mas ordenada
